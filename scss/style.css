@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header h3 {
+  display: block;
+  background: rgb(240, 238, 221);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20.4px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(103, 10, 24);
+  padding: 10px 0;
+}
+header .container .navbar .menu {
+  display: none;
+}
+header .container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+header .container .navbar .centr_a {
+  font-weight: 900;
+  font-size: 39px;
+}
+header .container .navbar a {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22.1px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: rgb(53, 49, 46);
+}
+header .container .navbar .navleft {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+header .container .navbar .navright {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+header .container .navbar .navright .end_a {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  padding: 10px;
+  border-radius: 50%;
+  background: rgb(200, 123, 94);
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+main section .container .section_one {
+  background-image: url("../img/section_one.jpg");
+  background-size: cover;
+}
+main section .container .section_one .section_one_text h1 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: rgb(53, 49, 46);
+  padding-bottom: 50px;
+}
+main section .container .section_one .section_one_text h1 span {
+  text-decoration: underline;
+}
+main section .container .section_one .section_one_text a {
+  width: 40%;
+}
+main section .container .section_one .section_one_text {
+  width: 29%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+main section .container .section_two {
+  padding: 20px 0;
+  background: rgb(245, 241, 233);
+}
+main section .container .section_two .section_two_text {
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto;
+}
+main section .container .section_two .section_two_text h1 {
+  text-align: center;
+}
+main section .container .section_two .section_two_card {
+  padding: 50px 0;
+}
+main section .container .section_two .section_two_card img {
+  width: 15%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section .container .section_two .section_two_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main section .container .section_theree {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main section .container .section_theree .section_theree_left {
+  width: 35%;
+}
+main section .container .section_theree .section_theree_left h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 46.2px;
+  letter-spacing: 1.25px;
+  text-align: center;
+}
+main section .container .section_theree .section_theree_right {
+  width: 60%;
+}
+main section .container .section_theree .section_theree_right p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.92px;
+  letter-spacing: 0%;
+}
+main section .container .section_foo {
+  background: rgb(251, 246, 234);
+}
+main section .container .section_foo .section_foo_text {
+  text-align: center;
+  justify-content: center;
+}
+main section .container .section_foo .section_foo_text .colors {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 0;
+}
+main section .container .section_foo .section_foo_text .colors div {
+  width: 30px;
+  height: 30px;
+  background: rgb(224, 157, 129);
+  border-radius: 50%;
+  cursor: pointer;
+}
+main section .container .section_foo .section_foo_text .colors div:hover {
+  border: 1px solid rgb(211, 194, 202);
+}
+main section .container .section_five {
+  flex-direction: column;
+}
+main section .container .section_five .section_five_text {
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+main section .container .section_five .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main section .container .section_five .cards .card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: flex-end;
+}
+main section .container .section_five .cards .card .img_card {
+  width: 80%;
+}
+main section .container .section_five .cards .card .img_card img {
+  width: 100%;
+}
+main section .container .section_five .cards .card {
+  width: 25%;
+  align-items: center;
+  justify-content: end;
+}
+main section .container .section_five .cards .card p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 19.6px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+main section .container .section_five .cards .card .wrapper {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main section .container .section_five .cards .card .wrapper div {
+  border: 3px solid rgb(110, 98, 89);
+}
+main section .container .section_six {
+  display: flex;
+  align-items: center;
+}
+main section .container .section_six .section_five_left {
+  width: 35%;
+}
+main section .container .section_six .section_five_left img {
+  width: 100%;
+}
+main section .container .section_six .section_five_centr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 439px;
+  flex-direction: column;
+  background: rgb(245, 241, 233);
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  align-content: space-between;
+}
+main section .container .section_six .section_five_centr h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 46.08px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 30px 0;
+}
+main section .container .section_six .section_five_centr a {
+  padding: 10px 20px;
+}
+main section .container .section_six .section_five_right {
+  background: black;
+  width: 35%;
+}
+main section .container .section_six .section_five_right img {
+  width: 100%;
+}
+
+footer {
+  background: rgb(108, 103, 77);
+}
+footer .end {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(128, 124, 98);
+}
+footer .end ul {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer .end ul i {
+  width: 20%;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container .f_container {
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+footer .container .f_container .f_container_left {
+  width: 40%;
+}
+footer .container .f_container .f_container_left h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 57.8px;
+  letter-spacing: 0.7px;
+  color: rgb(252, 250, 246);
+}
+footer .container .f_container .f_container_left p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: rgb(252, 250, 246);
+}
+footer .container .f_container .f_container_left p {
+  padding: 50px 0;
+}
+footer .container .f_container .f_container_left form {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background: white;
+}
+footer .container .f_container .f_container_left form a {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer .container .f_container .f_container_left form input {
+  width: 100%;
+  padding: 20px 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+footer .container .f_container .f_container_right {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 30%;
+  display: flex;
+  align-self: flex-start;
+}
+footer .container .f_container .f_container_right ul {
+  width: 35%;
+}
+footer .container .f_container .f_container_right ul a {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30.6px;
+  letter-spacing: 0%;
+  color: rgba(245, 241, 233, 0.6);
+}
+footer .container .f_container .f_container_right span {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer .container .f_container .f_container_right span i {
+  color: white;
+  font-size: 40px;
+}
+
+@media (max-width: 1063px) {
+  main section .container .section_six {
+    flex-direction: column;
+  }
+  main section .container .section_six .section_five_left {
+    width: 100%;
+  }
+  main section .container .section_six .section_five_centr {
+    width: 100%;
+  }
+  main section .container .section_six .section_five_right {
+    width: 100%;
+  }
+  main section .container .section_five .cards {
+    flex-wrap: wrap;
+  }
+  main section .container .section_five .cards .card {
+    width: 40%;
+  }
+  main section .container .section_five .cards .card .wrapper {
+    flex-wrap: wrap;
+  }
+  footer .container .f_container {
+    flex-wrap: wrap;
+  }
+  footer .container .f_container .f_container_left {
+    width: 100%;
+  }
+  footer .container .f_container .f_container_right {
+    width: 100%;
+  }
+}
+@media (max-width: 705px) {
+  header .container .navbar .menu {
+    display: block;
+  }
+  header .container .navbar .navleft {
+    display: none;
+  }
+  header .container .navbar .navright {
+    display: none;
+  }
+  main section .container .section_theree {
+    text-align: center;
+    flex-direction: column;
+  }
+  main section .container .section_theree .section_theree_left {
+    width: 100%;
+  }
+  main section .container .section_theree .section_theree_right {
+    width: 100%;
+  }
+  main section .container .section_foo .section_foo_text .colors {
+    flex-wrap: wrap;
+  }
+  main section .container .section_five .cards {
+    flex-direction: column;
+  }
+  main section .container .section_five .cards .card {
+    width: 100%;
+  }
+  main section .container .section_five .cards .card p {
+    font-size: 25px;
+  }
+}
+@media (max-width: 470px) {
+  main section .container .section_one .section_one_text {
+    width: 100%;
+  }
+  main section .container .section_one .section_one_text a {
+    width: 100%;
+  }
+  main section .container .section_two .section_two_card {
+    flex-wrap: wrap;
+  }
+  footer .end {
+    flex-wrap: wrap;
+  }
+  footer .end ul {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=style.css.map */
